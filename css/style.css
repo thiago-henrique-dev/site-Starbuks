@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    content: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.center{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+html,body{
+    height: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+
+header{
+    height: 200px;
+    padding: 20px 0;
+}
+.logo{
+    width: 40%;
+}
+
+.menu{
+    padding-top: 5px;
+
+    text-align: right;
+}
+.menu a{
+    color: black;
+    text-decoration: none;
+    margin-right: 25px;
+}
+section.sobre{
+    height: calc(100% - 200px);
+    position: relative;
+}
+.extras{
+    border-radius: 100% 0% 0% 0%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 550px;
+    height: 550px;
+    background-color: #017143;
+}
+.social-media{
+    position:absolute;
+    right: 20px;
+    top: 40px;
+
+}
+.social-media img{
+    display: block;
+    width:  20px;
+    margin: 10px;
+}
+.texto-sobre{
+    margin-top: -60px;
+}
+.texto-sobre h1{
+    font-size: 35px;
+}
+.texto-sobre p{
+    margin: 20px 0;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    max-width: 600px;
+}
+.texto-sobre button{
+    border: 0;
+    background-color: #017143;
+    color: white;
+    border-radius:10px;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    
+}
+
+
+
+
+
+
+
+
+
+
